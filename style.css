@@ -1,0 +1,40 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.main{
+    height:60px;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+.text{
+    height:50px;
+    width:40vw;
+    font-size:25px;
+    text-align:center;
+    border:2px solid black;
+    border-radius:20px;
+}
+button{
+    height:50px;
+    width:100px;
+    border-radius:20px;
+}
+.sen,.letter,.word{
+    margin:10px;
+    height:50px;
+    width:30vw;
+    background-color:palevioletred;
+    border:2px solid black;
+    border-radius:20px;
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
